@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Jeff Kollman</title>
+
+    <style>
+      h1  {
+        text-align: center;
+
+        color: #000000;
+      }
+
+      h2  {
+        text-align: center;
+
+        border: 1px solid #000000;
+
+        padding: 15px;
+
+        font-size: 18px;
+
+        border-radius: 4px;
+      }
+
+      img  {
+        display: block;
+
+        margin: 0 auto;
+
+        max-width: 75%;
+
+        border-radius: 10px;
+      }
+
+      p  {
+        line-height: 1.5;
+
+        font-size: 13px;
+
+        margin: 20px 0 10px;
+      }
+
+      button  {
+        display: block;
+
+        margin: 20px auto;
+
+        background: #b46b3e;
+
+        color: #ffffff;
+
+        font-size: 18px;
+
+        padding: 15px 20px;
+
+        border: none;
+
+        border-radius: 6px;
+
+        box-shadow: 5px 5px 10px rgba (0,  0,  0,  0.3);
+
+        transition: all 200ms ease-in-out;
+      }
+
+      button:hover  {
+        opacity: 0.9;
+
+        cursor: pointer;
+      }
+
+      .container  {
+        max-width: 600px;
+
+        margin: 0 auto;
+
+        padding: 15px 60px;
+      }
+
+      .learn-more  {
+        color: #b46b3e;
+
+        text-decoration: none;
+
+        font-size: 12px;
+      }
+
+      .learn-more:hover  {
+        text-decoration: underline;
+      }
+
+      .footer  {
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>JEFF KOLLMAN</h1>
+
+      <h2>Is Jeff Kollman a cool guitar player? Submit your opinion below!</h2>
+
+      <img
+        src="https://1.bp.blogspot.com/-ZDmSf9AuSGs/Ux-Z-BCnfPI/AAAAAAACGjQ/dPUUyr1nJCM/s1600/unnamed+(78).jpg"
+        alt="Jeff Kollman"
+      />
+
+      <p>
+        <em>
+          Jeff Kollman is an American guitar player from Toledo, Ohio, best
+          known for his work with Glenn Hughes, Chad Smith's Bombastic Meatbat,
+          UFO off-shoot Mogg/Way progressive rock trio, Cosmosquad. He has
+          worked extensively with contemporary jazz keyboardist Lao Tizer,
+          played live with bassist/vocalist Marco Mendoza, and is currently a
+          member of Asia feat. John Payne and blues rockers Bleeding Harp.
+        </em>
+      </p>
+
+      <a
+        href="https://jeffkollman.com/about.html"
+        target="_blank"
+        class="learn-more"
+      >
+        Learn more at jeffkollman.com/about
+      </a>
+
+      <button>Say your opinion here</button>
+
+      <p>This page was built by Linn Forsman</p>
+    </div>
+
+    <script>
+      function yourOpinion() {
+        let name = prompt("What is your name?");
+
+        let opinionMusic = prompt("Do you like Jeff Kollman?");
+
+        opinionMusic = opinionMusic.toLowerCase().trim();
+
+        let heading = document.querySelector("h1");
+
+        if (opinionMusic === "no") {
+          heading.innerHTML =
+            "<br />Too bad for you, " +
+            name +
+            "." +
+            " Jeff Kollman is a cool guitarist!";
+        }
+
+        if (opinionMusic === "yes") {
+          heading.innerHTML =
+            "<br />Good for you, " +
+            name +
+            "." +
+            " Jeff Kollman is a cool guitarist!";
+        }
+      }
+
+      let changeButton = document.querySelector("button");
+
+      changeButton.addEventListener("click", yourOpinion);
+    </script>
+  </body>
+</html>
+
+SheCodes Project Week 3 - Jeff Kollman Guitarist
