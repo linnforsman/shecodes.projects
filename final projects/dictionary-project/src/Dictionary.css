@@ -1,0 +1,47 @@
+.Dictionary section {
+  background-color: rgba(221, 221, 221, 0.472);
+  padding: 30px;
+  border-radius: 3px;
+  box-shadow: 5px 5px 5px rgba(194, 194, 194, 0.7);
+  margin: 20px auto;
+  border-radius: 5px;
+  background: linear-gradient(70deg, #eaeaea, #c5c5c5);
+  box-shadow: 5px 5px 5px #bababa, -5px -5px 5px #fcfcfc;
+}
+
+.Dictionary input {
+  width: 100%;
+  padding: 6px 4px;
+  border: 1px solid lightgrey;
+}
+
+.Dictionary .hint {
+  font-size: 11px;
+  margin-top: 5px;
+}
+
+.Dictionary .dict-word {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    70deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Dictionary h1 {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Dictionary h3 {
+  color: darkblue;
+}
