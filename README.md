@@ -1,5 +1,5 @@
 # SheCodes / Assignments, homework, projects
-Assignments, homework, and projects are done at coding workshops at [SheCodes](www.shecodes.io).
+📚 Assignments, homework, and projects are done at coding workshops at [SheCodes](www.shecodes.io).
 
 
 ## File Description
