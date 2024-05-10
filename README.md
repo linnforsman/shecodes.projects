@@ -2,6 +2,12 @@
 📚 Assignments, homework, and projects are done at coding workshops at [SheCodes](www.shecodes.io).
 
 
+### Deployments
+
+- [Weather App](http://weather-app-sc-1.surge.sh/)
+- [Responsive Portfolio Website](http://portfolio-website-1.surge.sh/)
+
+
 ## File Description
 ```
 .
