@@ -1,6 +1,7 @@
 # SheCodes / Assignments, homework, projects
 📚 Assignments, homework, and projects are done at coding workshops at [SheCodes](www.shecodes.io).
 
+My SheCodes profile can be visited [here](https://www.shecodes.io/graduates/7394-linn-forsman) for all workshop completions and their respective certificate of completion.
 
 ### Deployments
 
